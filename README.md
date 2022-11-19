@@ -10,4 +10,5 @@
 - [Вопрос № 03](rk-02/question-03.md)
 - [Вопрос № 04](rk-02/question-04.md)
 - [Вопрос № 05](rk-02/question-05.md)
+- [Вопрос № 06](rk-02/question-06.md)
 - _To be continued..._
