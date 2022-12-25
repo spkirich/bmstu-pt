@@ -13,7 +13,7 @@
 
 $$
 \forall x \in \mathbb{R}:
-\{ \omega | \omega \in \Omega, X(\omega) < x \} \in \mathfrak{B}.
+\\{ \omega : \omega \in \Omega, X(\omega) < x \\} \in \mathfrak{B}.
 $$
 
 Отображение $F_X : \mathbb{R} \rightarrow \mathbb{R}$
@@ -21,7 +21,7 @@ $$
 
 $$
 \forall x \in \mathbb{R}:
-F_X(x) = P \{ X < x \}.
+F_X(x) = P \\{ X < x \\}.
 $$
 
 Функция распределения ограничена:
@@ -61,5 +61,5 @@ $$
 
 $$
 \forall x_1 < x_2 \in \mathbb{R}:
-P \{ x_1 \leqslant X < x_2 \} = F_X(x_2) - F_X(x_1).
+P \\{ x_1 \leqslant X < x_2 \\} = F_X(x_2) - F_X(x_1).
 $$
