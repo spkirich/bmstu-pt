@@ -29,7 +29,7 @@ $$
 $F_X$ можно представить в виде
 
 $$
-F_X(x) = \int_{-\infty}^{x} f_X(t) dt.
+F_X(x) = \int_{-\infty}^{x} f_X(t) \, dt.
 $$
 
 Отображение $f_X : \mathbb{R} \rightarrow \mathbb{R}$ называют **функцией
