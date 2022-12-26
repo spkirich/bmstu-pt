@@ -23,6 +23,13 @@ $\mathbf{P}(B) \ne 0$, то они непременно зависимы.
 Действительно, в таком случае
 
 $$
-A \cap B = \varnothing; \mathbf{P}(A \cap B) = 0;
+A \cap B = \varnothing,
+$$
+
+$$
+\mathbf{P}(A \cap B) = 0,
+$$
+
+$$
 \mathbf{P}(A \cap B) \ne \mathbf{P}(A) \\, \mathbf{P}(B).
 $$
