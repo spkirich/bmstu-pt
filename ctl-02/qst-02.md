@@ -1,23 +1,33 @@
-# Вопрос № 02
+# Вопрос 02
 
 Сформулировать геометрическое определение вероятности.
 
 ## Определение
 
-Геометрическое определение вероятности обобщает классическое на
-случай бесконечного множества элементарных исходов
-$\Omega \subseteq \mathbb{R}^n, n \in \mathbb{N}$.
-
-Пусть $A, B \subseteq \mathbb{R}^n, n \in \mathbb{N}$.
-**Мерой** $A$ называется некоторое число $\mu(A) \geqslant 0$
-такое, что
+Отображение $\mu : \mathbb{R}^n \rightarrow \mathbb{R}$ называют **мерой**,
+если
 
 $$
-\mu(\varnothing) = 0, \mu(A \cup B) = \mu(A) + \mu(B).
+\mu(\varnothing) = 0,
 $$
 
-**Вероятностью** события $A$ называют число
+$$
+\forall A \subseteq \mathbb{R}^n:
+\mu(A) \geqslant 0,
+$$
 
 $$
+\forall A, B \subseteq \mathbb{R}^n:
+\mu(A \cup B) = \mu(A) + \mu(B).
+$$
+
+Пусть $\Omega$ &mdash; пространство элементарных исходов, $\mathfrak{B}$
+&mdash; $\sigma$-алгебра событий над ним.
+
+Отображение $\mathbf{P} : \mathfrak{B} \rightarrow \mathbb{R}$ называют
+**вероятностью**, если
+
+$$
+\forall A \in \mathfrak{B}:
 \mathbf{P}(A) = \frac{\mu(A)}{\mu(\Omega)}.
 $$
