@@ -43,5 +43,5 @@ $x \in \mathbb{R}$, равна нулю:
 
 $$
 \forall x \in \mathbb{R}:
-\mathbf{P} \\{ X = x \\} = \int_{x}^{x} f_X(x) \\, dx = 0.
+\mathbf{P} \\{ X = x \\} = \int_x^x f_X(x) \\, dx = 0.
 $$
