@@ -6,11 +6,11 @@
 
 Пусть $(\Omega, \mathfrak{B}, \mathbf{P})$ &mdash; вероятностное пространство.
 
-Число $\mathbf{P}(A | B)$ называют **условной вероятностью** события
+Число $\mathbf{P}(A \\, | \\, B)$ называют **условной вероятностью** события
 $A \in \mathfrak{B}$ при условии события $B \in \mathfrak{B}$, если
 
 $$
-\mathbf{P}(A | B) = \frac{\mathbf{P}(AB)}{\mathbf{P}(B)}.
+\mathbf{P}(A \\, | \\, B) = \frac{\mathbf{P}(AB)}{\mathbf{P}(B)}.
 $$
 
 При этом полагают $\mathbf{P}(B) \ne 0$.
@@ -22,5 +22,6 @@ $$
 
 $$
 \mathbf{P}(A) =
-P(A_1) \\, P(A_2 | A_1) \ldots P(A_n | A_1 \\, A_2 \ldots A_{n - 1}).
+P(A_1) \\, P(A_2 \\, | \\, A_1) \ldots
+P(A_n \\, | \\, A_1 \\, A_2 \ldots A_{n - 1}).
 $$
