@@ -8,16 +8,16 @@
 если
 
 $$
-\mu(\varnothing) = 0,
+\mu(\varnothing) = 0;
 $$
 
 $$
 \forall A \subseteq \mathbb{R}^n:
-\mu(A) \geqslant 0,
+\mu(A) \geqslant 0;
 $$
 
 $$
-\forall A, B \subseteq \mathbb{R}^n; A \cap B = \varnothing:
+\forall A, B \subseteq \mathbb{R}^n, \\, A \cap B = \varnothing:
 \mu(A \cup B) = \mu(A) + \mu(B).
 $$
 
