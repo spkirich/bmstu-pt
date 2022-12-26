@@ -35,7 +35,7 @@ $$
 $$
 F(x_1, x_2, \ldots, x_n) =
 \int_{-\infty}^{x_1} \int_{-\infty}^{x_2} \ldots \int_{-\infty}^{x_n}
-f(t_1, t_2, \ldots, t_n) \, dt_1 dt_2 \ldots dt_n.
+f(t_1, t_2, \ldots, t_n) \\, dt_1 dt_2 \ldots dt_n.
 $$
 
 Отображение $f : \mathbb{R}^n \rightarrow \mathbb{R}$ называют **функцией
