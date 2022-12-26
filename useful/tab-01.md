@@ -1,53 +1,65 @@
 # Таблица интегралов
 
 $$
-\int x^n \\, dx = \frac{x^{n + 1}}{n + 1} + C, n \ne 1.
+\int x^n \\, dx =
+\frac{x^{n + 1}}{n + 1} + C, n \ne 1.
 $$
 
 $$
-\int \frac{1}{x} \\, dx = \ln |x| + C.
+\int \frac{1}{x} \\, dx =
+\ln |x| + C.
 $$
 
 $$
-\int a^x \\, dx = \frac{a^x}{\ln a} + C, a > 0, a \ne 1.
+\int a^x \\, dx =
+\frac{a^x}{\ln a} + C, a > 0, a \ne 1.
 $$
 
 $$
-\int \sin x \\, dx = -\cos x + C.
+\int \sin x \\, dx =
+-\cos x + C.
 $$
 
 $$
-\int \cos x \\, dx = \sin x + C.
+\int \cos x \\, dx =
+\sin x + C.
 $$
 
 $$
-\int \frac{1}{\sin^2 x} \\, dx = -\mathrm{ctg} x + C.
+\int \frac{1}{\sin^2 x} \\, dx =
+-\mathrm{ctg} \\, x + C.
 $$
 
 $$
-\int \frac{1}{\cos^2 x} \\, dx = \mathrm{tg} x + C.
+\int \frac{1}{\cos^2 x} \\, dx =
+\mathrm{tg} \\, x + C.
 $$
 
 $$
-\int \frac{1}{\sin x} \\, dx = \ln \left| \mathrm{tg} \frac{x}{2} \right| + C.
+\int \frac{1}{\sin x} \\, dx =
+\ln \left\lvert \mathrm{tg} \\, \frac{x}{2} \right\rvert + C.
 $$
 
 $$
 \int \frac{1}{\cos x} \\, dx =
-\ln \left| \mathrm{tg} \left( \frac{x}{2} + \frac{\pi}{4} \right) \right| + C.
+\ln \left\lvert
+\mathrm{tg} \\, \left( \frac{x}{2} + \frac{\pi}{4} \right)
+\right\rvert + C.
 $$
 
 $$
-\int \frac{1}{a^2 + x^2} \\, dx = \frac{1}{a} \mathrm{arctg} \frac{x}{a} + C.
+\int \frac{1}{a^2 + x^2} \\, dx =
+\frac{1}{a} \mathrm{arctg} \\, \frac{x}{a} + C.
 $$
 
 $$
 \int \frac{1}{a^2 - x^2} \\, dx =
-\frac{1}{2 a} \ln \left| \frac{x + a}{x - a} \right| + C.
+\frac{1}{2 a} \ln \left\lvert \frac{x + a}{x - a} \right\rvert + C.
 $$
 
 $$
-\int \frac{1}{\sqrt{a^2 - x^2}} \\, dx = \mathrm{arcsin} \frac{x}{a} + C.
+\int \frac{1}{\sqrt{a^2 - x^2}} \\, dx =
+\mathrm{arcsin} \\, \frac{x}{a} + C.
 $$
 
 $$
