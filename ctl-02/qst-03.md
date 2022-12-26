@@ -1,25 +1,23 @@
-# Вопрос № 03
+# Вопрос 03
 
-Сформулировать определение $\sigma$-алгебры событий.
-Сформулировать её основные свойства.
+Сформулировать определение $\sigma$-алгебры событий, её основные свойства.
 
-## Определение
+## Ответ
 
-Непустое семейство $\mathfrak{B}$ подмножеств пространства
-элементарных исходов $\Omega$ называется **$\sigma$-алгеброй**
-событий, если
+Пусть $\Omega$ &mdash; пространство элементарных исходов.
 
-$$
-\forall A \in \mathfrak{B} :
-    \overline{A} \in \mathfrak{B};
-$$
+Непустое семейство $\mathfrak{B}$ подмножеств $\Omega$ называется
+**$\sigma$-алгеброй** событий, если
 
 $$
-\forall A_1, A_2, ..., A_i, ... \in \mathfrak{B} :
-    A_1 \cup A_2 \cup ... \cup A_i \cup ... \in \mathfrak{B}.
+\forall A \in \mathfrak{B}:
+\overline{A} \in \mathfrak{B};
 $$
 
-## Свойства
+$$
+\forall A_1, A_2, \ldots, A_i, \ldots \in \mathfrak{B}:
+A_1 \cup A_2 \cup \ldots \cup A_i \cup \ldots \in \mathfrak{B}.
+$$
 
 Достоверное событие $\Omega \in \mathfrak{B}$:
 
