@@ -7,30 +7,23 @@
 
 Пусть $(\Omega, \mathfrak{B}, \mathbf{P})$ &mdash; вероятностное пространство.
 
-События $A$ и $B$ называют **несовместными**, если
+События $A, B \in \mathfrak{B}$ называют **несовместными**, если
 
 $$
 A \cap B = \varnothing.
 $$
 
-События $A$ и $B$ называют **независимыми**, если
+События $A, B \in \mathfrak{B}$ называют **независимыми**, если
 
 $$
 \mathbf{P}(A \cap B) = \mathbf{P}(A) \\, \mathbf{P}(B).
 $$
 
-Если события $A$ и $B$ несовместны, $\mathbf{P}(A) \ne 0$ и
+Если события $A, B \in \mathfrak{B}$ несовместны, $\mathbf{P}(A) \ne 0$ и
 $\mathbf{P}(B) \ne 0$, то они непременно зависимы. Действительно, в таком
 случае
 
 $$
-A \cap B = \varnothing,
-$$
-
-$$
-\mathbf{P}(A \cap B) = 0,
-$$
-
-$$
-\mathbf{P}(A \cap B) \ne \mathbf{P}(A) \\, \mathbf{P}(B).
+\mathbf{P}(A \cap B) = \mathbf{P}(\varnothing) = 0 \ne
+\mathbf{P}(A) \\, \mathbf{P}(B).
 $$
