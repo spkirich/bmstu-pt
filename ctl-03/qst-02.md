@@ -21,7 +21,7 @@
 Здесь
 
 $$
-\forall k \in \\{ 1, 2, \ldots, i, \ldots, n \\}:
+\forall k \in \\{ 1, 2, \ldots, n \\}:
 p_k = \mathbf{P} \\{ X = x_k \\}.
 $$
 
