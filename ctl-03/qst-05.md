@@ -25,7 +25,7 @@
 Здесь
 
 $$
-\forall i = 1, 2, \ldots, m; j = 1, 2, \ldots, n:
+\forall i \in \\{ 1, 2, \ldots, m \\}; j \in \\{ 1, 2, \ldots, n \\}:
 p_{ij} = \mathbf{P} \\{ X = x_i, Y = y_j \\}.
 $$
 
