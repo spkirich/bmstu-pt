@@ -12,7 +12,7 @@
 $F_X$ можно представить в виде
 
 $$
-F_X(x) = \int_{-\infty}^{x} f_X(t) dt.
+F_X(x) = \int_{-\infty}^{x} f_X(t) \\, dt.
 $$
 
 Отображение $f_X : \mathbb{R} \rightarrow \mathbb{R}$ называют **функцией
@@ -28,14 +28,14 @@ $$
 Функция плотности удовлетворяет условию нормировки:
 
 $$
-\int_{-\infty}^{+\infty} f_X(x) dx = 1.
+\int_{-\infty}^{+\infty} f_X(x) \\, dx = 1.
 $$
 
 Вероятность выражается через функцию плотности:
 
 $$
 \forall x_1 < x_2 \in \mathbb{R}:
-\mathbf{P} \\{ x_1 \leqslant X < x_2 \\} = \int_{x_1}^{x_2} f_X(x) dx.
+\mathbf{P} \\{ x_1 \leqslant X < x_2 \\} = \int_{x_1}^{x_2} f_X(x) \\, dx.
 $$
 
 Отсюда вероятность того, что случайная величина $X$ принимает заданное значение
@@ -43,5 +43,5 @@ $x \in \mathbb{R}$, равна нулю:
 
 $$
 \forall x \in \mathbb{R}:
-\mathbf{P} \\{ X = x \\} = \int_{x}^{x} f_X(x) dx = 0.
+\mathbf{P} \\{ X = x \\} = \int_{x}^{x} f_X(x) \\, dx = 0.
 $$
