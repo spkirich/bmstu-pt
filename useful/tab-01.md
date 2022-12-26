@@ -7,7 +7,7 @@ $$
 
 $$
 \int \frac{1}{x} \\, dx =
-\ln |x| + C.
+\ln \lvert x \rvert + C.
 $$
 
 $$
@@ -37,14 +37,14 @@ $$
 
 $$
 \int \frac{1}{\sin x} \\, dx =
-\ln \left\lvert \mathrm{tg} \\, \frac{x}{2} \right\rvert + C.
+\ln \lvert \mathrm{tg} \\, \frac{x}{2} \rvert + C.
 $$
 
 $$
 \int \frac{1}{\cos x} \\, dx =
-\ln \left\lvert
+\ln \lvert
 \mathrm{tg} \\, \left( \frac{x}{2} + \frac{\pi}{4} \right)
-\right\rvert + C.
+\rvert + C.
 $$
 
 $$
@@ -54,7 +54,7 @@ $$
 
 $$
 \int \frac{1}{a^2 - x^2} \\, dx =
-\frac{1}{2 a} \ln \left\lvert \frac{x + a}{x - a} \right\rvert + C.
+\frac{1}{2 a} \ln \lvert \frac{x + a}{x - a} \rvert + C.
 $$
 
 $$
