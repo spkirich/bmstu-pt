@@ -17,7 +17,7 @@ $$
 $$
 
 $$
-\forall A, B \subseteq \mathbb{R}^n:
+\forall A, B \subseteq \mathbb{R}^n, A \cap B = \varnothing:
 \mu(A \cup B) = \mu(A) + \mu(B).
 $$
 
