@@ -12,7 +12,7 @@
 
 $$
 \forall x, y \in \mathbb{R}:
-F(x, y) = F_X(x) F_Y(y).
+F(x, y) = F_X(x) \\, F_Y(y).
 $$
 
 Дискретные случайные величины $X$ и $Y$ независимы тогда и только тогда, когда
@@ -20,14 +20,14 @@ $$
 $$
 \forall x, y \in \mathbb{R}:
 \mathbf{P} \\{ X = x, Y = y \\} =
-\mathbf{P} \\{ X = x \\} \mathbf{P} \\{ Y = y \\}.
+\mathbf{P} \\{ X = x \\} \\, \mathbf{P} \\{ Y = y \\}.
 $$
 
 Непрерывные случайные величины $X$ и $Y$ независимы тогда и только тогда, когда
 
 $$
 \forall x, y \in \mathbb{R}:
-f(x, y) = f_X(x) f_Y(y).
+f(x, y) = f_X(x) \\, f_Y(y).
 $$
 
 Если случайные величины $X$ и $Y$ независимы, а функции $\phi(t)$ и $\psi(t)$
@@ -40,7 +40,7 @@ $$
 $$
 \forall i \ne j \in \\{ 1, 2, \ldots, n \\}:
 \forall x_i, x_j \in \mathbb{R}:
-F(x_i, x_j) = F_{X_i}(x_i) F_{X_j}(x_j).
+F(x_i, x_j) = F_{X_i}(x_i) \\, F_{X_j}(x_j).
 $$
 
 Случайные величины $X_1, X_2, \ldots, X_n$, заданные на данном вероятностном
@@ -48,5 +48,5 @@ $$
 
 $$
 \forall x_1, x_2, \ldots, x_n \in \mathbb{R}:
-F(x_1, x_2, \ldots, x_n) = F_{X_1}(x_1) F_{X_2}(x_2) \ldots F_{X_n}(x_n).
+F(x_1, x_2, \ldots, x_n) = F_{X_1}(x_1) \\, F_{X_2}(x_2) \ldots F_{X_n}(x_n).
 $$
