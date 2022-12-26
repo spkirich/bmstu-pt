@@ -22,7 +22,7 @@ $$
 Достоверное событие $\Omega \in \mathfrak{B}$:
 
 $$
-\forall A \in \mathfrak{B} : \Omega = A \cup \overline{A}.
+\forall A \in \mathfrak{B}: \Omega = A \cup \overline{A}.
 $$
 
 Невозможное событие $\varnothing \in \mathfrak{B}$:
