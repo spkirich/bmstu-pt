@@ -15,8 +15,8 @@ $$
 $$
 
 $$
-\forall A_1, A_2, \ldots, A_i, \ldots \in \mathfrak{B}:
-A_1 \cup A_2 \cup \ldots \cup A_i \cup \ldots \in \mathfrak{B}.
+\forall A_1, A_2, \ldots \in \mathfrak{B}:
+A_1 \cup A_2 \cup \ldots \in \mathfrak{B}.
 $$
 
 Достоверное событие $\Omega \in \mathfrak{B}$:

@@ -12,8 +12,7 @@ $$
 $$
 
 $$
-\forall A \subseteq \mathbb{R}^n:
-\mu(A) \geqslant 0;
+\forall A \subseteq \mathbb{R}^n: \mu(A) \geqslant 0;
 $$
 
 $$
@@ -28,6 +27,5 @@ $$
 **вероятностью**, если
 
 $$
-\forall A \in \mathfrak{B}:
-\mathbf{P}(A) = \frac{\mu(A)}{\mu(\Omega)}.
+\forall A \in \mathfrak{B}: \mathbf{P}(A) = \frac{\mu(A)}{\mu(\Omega)}.
 $$

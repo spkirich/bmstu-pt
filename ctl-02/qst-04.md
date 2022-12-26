@@ -11,8 +11,7 @@
 **вероятностью**, если
 
 $$
-\forall A \in \mathfrak{B}:
-\mathbf{P}(A) \geqslant 0;
+\forall A \in \mathfrak{B}: \mathbf{P}(A) \geqslant 0;
 $$
 
 $$
@@ -20,9 +19,8 @@ $$
 $$
 
 $$
-\forall A_1, A_2, \ldots, A_i, \ldots \in \mathfrak{B}:
-\mathbf{P}(A_1 + A_2 + \ldots + A_i + \ldots) =
-\mathbf{P}(A_1) + \mathbf{P}(A_2) + \ldots + \mathbf{P}(A_i) + \ldots
+\forall A_1, A_2, \ldots \in \mathfrak{B}:
+\mathbf{P}(A_1 + A_2 + \ldots) = \mathbf{P}(A_1) + \mathbf{P}(A_2) + \ldots
 $$
 
 Вероятность невозможного события:
@@ -41,21 +39,18 @@ $$
 Вероятность противоположного события:
 
 $$
-\forall A \in \mathfrak{B}:
-\mathbf{P}(\overline{A}) = 1 - \mathbf{P}(A).
+\forall A \in \mathfrak{B}: \mathbf{P}(\overline{A}) = 1 - \mathbf{P}(A).
 $$
 
 Вероятность ограничена:
 
 $$
-\forall A \in \mathfrak{B}:
-0 \leqslant \mathbf{P}(A) \leqslant 1.
+\forall A \in \mathfrak{B}: 0 \leqslant \mathbf{P}(A) \leqslant 1.
 $$
 
 Вероятность сохраняет порядок:
 
 $$
 \forall A, B \in \mathfrak{B}:
-A \subseteq B \Rightarrow
-\mathbf{P}(A) \leqslant \mathbf{P}(B).
+A \subseteq B \Rightarrow \mathbf{P}(A) \leqslant \mathbf{P}(B).
 $$
